@@ -1,0 +1,330 @@
+/* Q-1: Change Text Color and Background */
+.tcolor {
+  color: blue;
+  background-color: grey;
+}
+
+/* Q-2 : Use Class and ID Selectors */
+.box {
+  width: 200px;
+  height: 100px;
+  background-color: lightblue;
+}
+
+#title {
+  color: green;
+  text-align: center;
+}
+
+/*  Q-3:  Apply Box Model Properties */
+/* Q-4:  Fix Box Size Using box-sizing  */
+
+.div {
+  width: 250px;
+  padding: 20px;
+  border: 3px solid black;
+  margin: 15px;
+  box-sizing: border-box;
+}
+
+/* Q-5:Text Formatting Practice */
+h1 {
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/* Q-6:  Font Styling */
+h3 {
+  font-family: popins, Roboto, Arial, sans-serif;
+  font-size: 16px;
+}
+
+/* Q-7: Text Decoration Styling */
+a {
+  text-decoration: none;
+}
+
+#anchor:hover {
+  color: red;
+  text-decoration: wavy underline;
+}
+
+/* Q-8: RGB and Hex Color Practice  */
+.fcolor {
+  color: rgb(255, 167, 264);
+}
+
+.bcolor {
+  background-color: #000000;
+  color: white;
+}
+
+/* Q-9:  Padding & Margin Shorthand */
+.card {
+  border: 2px solid black;
+  padding: 10px 20px;
+  margin: 15px 30px;
+}
+
+/* Q-10: Height, Width & Overflow */
+.overflow-set {
+  width: 200px;
+  height: 100px;
+  overflow: scroll;
+}
+
+/* HTML CSS Basic Questions */
+
+/* Q-1: Display Inline */
+span {
+  background-color: bisque;
+  width: 100px;
+  /*NO CHANGE*/
+}
+
+/* Q-2: Display: Block */
+
+.d1 {
+  width: 200px;
+  height: 50px;
+  background-color: red;
+  color: white;
+}
+
+.d2 {
+  width: 200px;
+  height: 50px;
+  background-color: green;
+  color: white;
+}
+
+/* Q-3: Inline-Block  */
+.box1 {
+  display: inline-block;
+  width: 150px;
+  height: 100px;
+  margin: 10px;
+  border: 1px solid black;
+}
+
+.box2 {
+  display: inline-block;
+  width: 150px;
+  height: 100px;
+  margin: 10px;
+  border: 1px solid black;
+}
+
+.box3 {
+  display: inline-block;
+  width: 150px;
+  height: 100px;
+  margin: 10px;
+  border: 1px solid black;
+}
+
+/* Q-4: Hide an Element */
+#hidden {
+  display: none;
+  /*No space left*/
+}
+
+#visible {
+  visibility: hidden;
+  /*Space for hidden element*/
+}
+
+/*Q-5: RGBA Transparency*/
+#rgba-check {
+  width: 200px;
+  height: 200px;
+  background-color: rgba(255, 0, 0, 0.5);
+}
+
+/* Q-6: Opacity Practice */
+
+.b1 {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  opacity: 0.5;
+}
+
+.b2 {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  background-color: green;
+  opacity: 0.5;
+}
+
+.b3 {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  background-color: orange;
+  opacity: 0.5;
+}
+
+/* Q-7: Percentage Width */
+.parent {
+  width: 400px;
+}
+
+.child {
+  width: 50%;
+  background-color: pink;
+}
+
+/* Q-8: em Unit Practice */
+.em-practice {
+  font-size: 20px;
+  padding: 2em;
+}
+
+/* Q-9: rem Unit Practice */
+html {
+  font-size: 16px;
+}
+
+.rem-practice {
+  font-size: 2rem;
+}
+
+/*  Q-10: Background Image  */
+.img {
+  height: 300px;
+  width: 300px;
+  border: 1px solid black;
+  background-image: url(https://images.unsplash.com/photo-1768590238659-b401ffa9571e?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwzfHx8ZW58MHx8fHx8);
+  justify-content: center;
+}
+
+/* Flexbox Property */
+/* Q-1 */
+.container {
+  width: 300px;
+  height: 300px;
+  border: 1px solid black;
+}
+
+.boxx {
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+}
+
+/* Q-2 */
+.container2 {
+  width: 300px;
+  height: 300px;
+  border: 1px solid black;
+  align-content: center;
+  justify-items: center;
+}
+
+.boxx2 {
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+}
+
+/* Q-3 */
+nav {
+  background-color: crimson;
+}
+.navdiv {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.heading {
+  font-size: 35px;
+  color: white;
+  padding-left: 15px;
+}
+li {
+  list-style: none;
+  display: inline-block;
+  flex-wrap: wrap;
+}
+li a {
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  margin-right: 25px;
+}
+a:hover {
+  color: black;
+}
+
+/* Q-4 */
+.card {
+  width: 200px;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.btn {
+  background-color: blue;
+  color: white;
+  padding: 8px;
+  border-radius: 15px;
+  border: none;
+  font-weight: bold;
+}
+#prelogo {
+  height: 70px;
+}
+h3 {
+  font-family: 'Times New Roman', Times, serif;
+}
+.profile {
+  height: 30px;
+  background-color: yellowgreen;
+  border: none;
+  color: white;
+  font-weight: bold;
+  border-radius: 10px;
+}
+.btn:hover {
+  background-color: black;
+  color: white;
+  transition: 0.3s ease-in;
+}
+
+/* Q-5 */
+.card2 {
+  width: 300px;
+  height: 410px;
+  border: 1px solid black;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#fullstack {
+  width: 300px;
+  height: 190px;
+  border-radius: 25px;
+}
+#viewcourse {
+  background-color: red;
+  color: white;
+  border: 2px solid rgb(red, green, blue);
+  outline: none;
+  font-weight: bolder;
+  padding: 8px;
+  border-radius: 15px;
+}
+#viewcourse:hover {
+  background-color: bisque;
+  color: black;
+  transition: 0.3s ease-in-out;
+}
+.descrp {
+  text-align: center;
+}
